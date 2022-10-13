@@ -1,0 +1,34 @@
+.header {
+    background-color: var(--gray-700);
+    width: 100%;
+    height: 12.5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 2.25rem;
+    width: 1.375rem;
+    margin-right: 0.75rem;
+}
+
+.todo {
+    font-weight: 900;
+    font-size: 2.5rem;
+    display: flex;;
+}
+
+.to {
+    color: var(--purple-dark);
+}
+
+.do {
+    color: var(--blue);
+}

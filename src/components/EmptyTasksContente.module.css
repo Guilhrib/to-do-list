@@ -1,0 +1,15 @@
+.noTasksContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 4rem 1.5rem;
+}
+
+.noTasksContent img {
+    margin-bottom: 1rem;
+}
+
+.noTasksContent p:nth-child(2) {
+    font-weight: 700;
+}

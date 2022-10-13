@@ -1,0 +1,40 @@
+.card {
+    width: 100%;
+    min-height: 4.5rem;
+    display: flex;
+    gap: 1rem;
+
+    background-color: var(--gray-500);
+    padding: 1rem;
+
+    border-radius: 8px;
+    margin-bottom: 0.75rem;
+}
+
+.card input[type=checkbox] {
+    align-self: flex-start;
+}
+
+.card div {
+    flex: 1;
+    align-self: flex-start;
+    overflow-wrap: anywhere;
+    padding-right: 1.25rem;
+}
+
+.card button {
+    align-self: flex-start;
+    background: transparent;
+    border: none;
+    color: var(--gray-300);
+    border-radius: 8px;
+}
+
+.checkedTask {
+    color: var(--gray-300);
+    text-decoration-line: line-through;
+}
+
+.unCheckedTask {
+    color: var(--gray-100);
+}
